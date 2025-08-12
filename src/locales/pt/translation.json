@@ -1,0 +1,93 @@
+{
+  "home": "Início",
+  "about": "Sobre",
+  "projects1": "Projetos",
+  "resume": "Currículo",
+  "language": "Idioma",
+  "hythere": "Olá",
+  "iam": "Sou o",
+  "intro": {
+    "letMe": "DEIXA-ME",
+    "introduce": "APRESENTAR",
+    "myself": "A MIM MESMO",
+    "loveProgramming": "Apaixonado por tecnologia, decidi entrar no mundo da programação",
+    "fluentIn": "Sou fluente em clássicos como ",
+    "languages": "Javascript, HTML e CSS",
+    "interests": "Minhas áreas de interesse são a criação de novas",
+    "webTechnologies": "Tecnologias e Produtos Web",
+    "and": "e ",
+    "passion": "Sempre que possível, também aplico minha paixão pelo desenvolvimento de produtos com",
+    "modernFrameworks": "Bibliotecas e frameworks modernos de Javascript, ",
+    "like": "como React, NextJ e Vite"
+  },
+  "social": {
+    "findMeOn": "ENCONTRA-ME EM",
+    "feelFree": "Sente-te à vontade para",
+    "connect": "conectar",
+    "withMe": "comigo"
+  },
+  "aboutSection": {
+    "knowWho": "Quem",
+    "im": "EU SOU",
+    "professional": "Competências",
+    "skillset": "Profissionais",
+    "tools": "Ferramentas",
+    "iUse": "que utilizo"
+  },
+  "aboutCard": {
+    "greeting1": "Olá a todos, eu sou",
+    "greeting2": "de",
+    "employment": "Atualmente trabalho como desenvolvedor de software como Freelancer.",
+    "education": "Concluí o Mestrado Integrado em Matemática e Computação no BIT Mesra.",
+    "activitiesIntro": "Além de programar, algumas outras atividades que adoro!",
+    "activity1": "Jogar videogame com meu filho",
+    "activity2": "Futebol",
+    "activity3": "Viajar",
+    "activity4": "Desenvolver códigos",
+    "activity5": "Estudar Programação",
+    "activity6": "Praticar Jiu Jitsu",
+    "quote": "Seja a diferença que o mundo precisa!"
+  },
+  "github": {
+    "daysICode1": "Dias  | ",
+    "daysICode2": " de Código"
+  },
+  "about.professional": "sobre.profissional",
+  "about.skillset": "sobre.habilidades",
+  "about.tools": "sobre.ferramentas",
+  "about.iUse": "sobre.o que uso",
+
+  "projects": {
+    "myRecent": "Meus Projetos",
+    "works": "Recentes",
+    "description": "Aqui estão alguns projetos em que trabalhei recentemente.",
+    "palancaNegraCafe": {
+      "title": "Palanca Negra Café",
+      "description": "Descrição do projeto Palanca Negra Café."
+    },
+    "palanca": {
+      "title": "Palanca Negra Café",
+      "description": "Conceção e implementação do website Palanca Negra Café, otimizado para apresentar os seus principais pratos e o ambiente convidativo, atraindo novos clientes."
+    },
+    "lics": {
+      "title": "Lics Transfer",
+      "description": "Minha página de blog pessoal construída com Next.js e Tailwind CSS, que pega conteúdo de arquivos markdown e o renderiza usando Next.js. Suporta modo escuro."
+    },
+    "fac": {
+      "title": "Factory 4.0",
+      "description": "Editor de código e markdown online construído com React.js. Suporta código HTML, CSS e JS com pré-visualização instantânea. O editor de markdown."
+    },
+    "pizz": {
+      "title": "La Favorita",
+      "description": "Utilizei um conjunto de dados de doenças de plantas do Kaggle e treinei um modelo classificador de imagens usando PyTorch com CNN e Transfer Learning."
+    },
+    "mec": {
+      "title": "Paulinho Mecânico",
+      "description": "Utilizei Processamento de Linguagem Natural para detectar publicações relacionadas a suicídio e ideação suicida de usuários no ciberespaço."
+    },
+    "pesquisa": {
+      "title": "Iniciação Cientifica e Tecnologica",
+      "description": "Detecção de imagens pulmonares por Machine Learning e Transfer Learning, usando redes convolucionais para agilizar e apoiar diagnósticos hospitalares."
+    }
+  }
+}

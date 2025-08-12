@@ -1,0 +1,163 @@
+:root {
+  --primary: #61dafb;
+}
+
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 40vmin;
+  pointer-events: none;
+  color: #61dafb;
+  font-weight: 900;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Seu arquivo CSS para o Footer (ex: Footer.css) */
+
+.main-footer {
+  background-color: #111; /* Cor de fundo escura, como no seu nav */
+  color: #bbb; /* Cor padrão do texto */
+  padding: 15px 0; /* Ajuste este padding para controlar a altura interna */
+  /* min-height: 80px; */ /* Descomente e ajuste se quiser uma altura mínima fixa */
+
+  /* --- NOVAS PROPRIEDADES PARA A LARGURA --- */
+  max-width: 80%; /* Define a largura máxima para 80% */
+  margin: 0 auto; /* Centraliza o bloco do footer horizontalmente */
+  /* --- FIM DAS NOVAS PROPRIEDADES --- */
+
+  /* Para centralizar o conteúdo verticalmente se o height/min-height for usado */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-top-row {
+  margin-bottom: 15px;
+  align-items: flex-start;
+}
+
+.footer-section {
+  padding: 0 10px;
+}
+
+.footer-heading {
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-text {
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-bottom: 0.5em;
+}
+
+.footer-icon-inline {
+  margin-right: 5px;
+  font-size: 1em;
+}
+
+.footer-link {
+  color: #8a2be2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #9b59b6;
+  text-decoration: underline;
+}
+
+.footer-nav-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+.footer-nav-list li {
+  margin-bottom: 5px;
+}
+
+.footer-social-heading {
+  margin-top: 15px;
+}
+
+.footer-social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  color: var(primary);
+  transform: translateY(-2px);
+}
+
+.footer-bottom-row {
+  margin-top: 15px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+.footer-copyright-text {
+  text-align: center;
+  color: #999;
+  font-size: 0.8em;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 767.98px) {
+  .main-footer {
+    max-width: 100%; /* Em telas pequenas, o footer volta a ocupar 100% para melhor visualização */
+    margin: 0; /* Remove a margem automática em telas pequenas */
+    padding: 20px 0; /* Ajuste o padding para telas pequenas */
+  }
+  .footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer-social-icons {
+    justify-content: center;
+  }
+  .footer-top-row {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects1": "Projects",
+  "resume": "Resume",
+  "language": "Language",
+  "hythere": "Hy There",
+  "iam": "I´M",
+  "intro": {
+    "letMe": "LET ME",
+    "introduce": "INTRODUCE",
+    "myself": "MYSELF",
+    "loveProgramming": "Passionate about technology I decided to enter the world of programming.",
+    "fluentIn": "I am fluent in languages such as",
+    "languages": "Javascript, HTML, and CSS.",
+    "interests": "My field of Interest's are building new",
+    "webTechnologies": "Web Technologies and Products",
+    "and": "and",
+    "passion": "Whenever possible, I also apply my passion for developing products with",
+    "modernFrameworks": "Modern Javascript Library and Frameworks",
+    "like": "like React, NextJ and Vite"
+  },
+  "social": {
+    "findMeOn": "FIND ME ON",
+    "feelFree": "Feel free to",
+    "connect": "connect",
+    "withMe": "with me"
+  },
+  "aboutSection": {
+    "knowWho": "Know Who",
+    "im": "I'M",
+    "professional": "Professional",
+    "skillset": "Skillset",
+    "tools": "Tools",
+    "iUse": "I use"
+  },
+  "aboutCard": {
+    "greeting1": "Hi Everyone, I am",
+    "greeting2": "from",
+    "employment": "I am currently employed as a software developer work as Freelancer.",
+    "education": "I have completed Integrated MSc (IMSc) in Maths and Computing at BIT Mesra.",
+    "activitiesIntro": "Apart from coding, some other activities that I love to do!",
+    "activity1": "Playing Games with my son",
+    "activity2": "Footbol",
+    "activity3": "Travelling",
+    "activity4": "Developer Code",
+    "activity5": "Study Schedule",
+    "activity6": "To practice Jiu Jitsu",
+    "quote": "Be the difference the world needs!"
+  },
+  "github": {
+    "daysICode1": "Days I",
+    "daysICode2": "Code"
+  },
+  "about.professional": "about.professional",
+  "about.skillset": "about.skillset",
+  "about.tools": "about.tools",
+  "about.iUse": "about.iUse",
+
+  "projects": {
+    "myRecent": "My Recent",
+    "works": "Works",
+    "description": "Here are a few projects I've worked on recently.",
+    "palanca": {
+      "title": "Palanca Negra Café",
+      "description": "Design and implementation of the Palanca Negra Café website, optimized to showcase its main dishes and inviting atmosphere, attracting new customers."
+    },
+    "lics": {
+      "title": "Lics Transfer",
+      "description": "My personal blog page built with Next.js and Tailwind CSS which takes content from markdown files and renders it using Next.js."
+    },
+    "fac": {
+      "title": "Factory 4.0",
+      "description": "Online code and markdown editor built with react.js. Supports HTML, CSS, and JS code with instant preview. Markdown editor."
+    },
+    "pizz": {
+      "title": "La Favorita",
+      "description": "Used plant disease dataset from Kaggle and trained an image classifier model using PyTorch with CNN and Transfer Learning. Achieved 98% accuracy."
+    },
+    "mec": {
+      "title": "Paulinho Mecâninco ",
+      "description": "Used Natural Language Processing to detect suicide-related posts and users’ suicide ideation in cyberspace, helping in suicide prevention."
+    },
+    "pesquisa": {
+      "title": "Scientific and Technological Initiation",
+      "description": "Detection of lung images by Machine Learning and Transfer Learning, using convolutional networks to streamline and support hospital diagnoses."
+    }
+  }
+}
+
+
